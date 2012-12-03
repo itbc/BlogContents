@@ -1,0 +1,42 @@
+/* no5 flying away */ 
+#example_005 li {
+	padding: 20px;
+	float: left;
+	position: relative;
+	list-style: none;
+}
+#example_005 a {
+	font-size: 23px;
+	color: #000080;
+	text-decoration: none;
+}
+#example_005 li:hover {
+	-webkit-transition-duration: 900ms;
+	-webkit-transition-property: color, text-shadow, rotate;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 900ms;
+	-moz-transition-property: color, text-shadow, rotate;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 900ms;
+	-o-transition-property: color, text-shadow, rotate;
+	-o-transition-timing-function: ease;
+	color: #ffffff;
+	text-shadow: 70px 30px 1px #000080;
+	-webkit-transform:rotate(200deg);
+	-moz-transform:rotate(200deg);
+	-ms-transform:rotate(200deg);
+	-o-transform:rotate(200deg);
+	transform: rotate(200deg);
+}
+#example_005  a:hover {
+	-webkit-transition-duration: 900ms;
+	-webkit-transition-property: color;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 900ms;
+	-moz-transition-property: color;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 900ms;
+	-o-transition-property: color;
+	-o-transition-timing-function: ease;
+	color: #ffffff;
+}

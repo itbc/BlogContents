@@ -1,0 +1,25 @@
+/* no1 shadow is going down */ 
+#example_001 li {
+	padding: 20px;
+	float: left;
+	position: relative;
+	list-style: none;
+}
+#example_001 a {
+	font-size: 23px;
+	color: #000080;
+	text-decoration: none;
+}
+#example_001 li:hover a {
+	-webkit-transition-duration: 800ms;
+	-webkit-transition-property: font-style, font-color;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 800ms;
+	-moz-transition-property: font-style, font-color;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 800ms;
+	-o-transition-property: font-style, font-color;
+	-o-transition-timing-function: ease;
+	font-style: italic;
+	color: #ffff33;
+}

@@ -1,0 +1,28 @@
+/* no4 rotating */ 
+#example_004 li {
+	padding: 20px;
+	float: left;
+	position: relative;
+	list-style: none;
+}
+#example_004 a {
+	font-size: 23px;
+	color: #000080;
+	text-decoration: none;
+}
+#example_004 li:hover {
+	-webkit-transition-duration: 900ms;
+	-webkit-transition-property: text-shadow, rotate;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 900ms;
+	-moz-transition-property: text-shadow, rotate;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 900ms;
+	-o-transition-property: text-shadow, rotate;
+	-o-transition-timing-function: ease;
+	-webkit-transform:rotate(720deg);
+	-moz-transform:rotate(720deg);
+	-ms-transform:rotate(720deg);
+	-o-transform:rotate(720deg);
+	transform: rotate(720deg);
+}

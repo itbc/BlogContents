@@ -1,0 +1,30 @@
+/* background nodding */ 
+#example_006 li {
+	padding: 20px;
+	float: left;
+	position: relative;
+	list-style: none;
+}
+#example_006 a {
+	font-size: 23px;
+	color: #000080;
+	text-decoration: none;
+	background: #30ff00;
+	padding: 3px;
+}
+#example_006 li:hover {
+	-webkit-transition-duration: 800ms;
+	-webkit-transition-property: rotate;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 800ms;
+	-moz-transition-property: rotate;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 800ms;
+	-o-transition-property: rotate;
+	-o-transition-timing-function: ease;
+	-webkit-transform:rotate(8deg);
+	-moz-transform:rotate(8deg);
+	-ms-transform:rotate(8deg);
+	-o-transform:rotate(8deg);
+	transform: rotate(8deg);
+}

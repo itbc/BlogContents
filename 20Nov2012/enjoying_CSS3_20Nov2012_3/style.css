@@ -1,0 +1,28 @@
+/* no3 flipping */ 
+#example_003 li {
+	padding: 20px;
+	float: left;
+	position: relative;
+	list-style: none;
+}
+#example_003 a {
+	font-size: 23px;
+	color: #000080;
+	text-decoration: none;
+}
+#example_003 li:hover {
+	-webkit-transition-duration: 300ms;
+	-webkit-transition-property: text-shadow, rotate;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 300ms;
+	-moz-transition-property: text-shadow, rotate;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 300ms;
+	-o-transition-property: text-shadow, rotate;
+	-o-transition-timing-function: ease;
+	-webkit-transform:rotate(-180deg);
+	-moz-transform:rotate(-180deg);
+	-ms-transform:rotate(-180deg);
+	-o-transform:rotate(-180deg);
+	transform: rotate(-180deg);
+}
